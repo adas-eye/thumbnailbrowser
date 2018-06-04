@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>713</width>
+    <height>437</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Thumbnail Browser</string>
+  </property>
+  <widget class="QWidget" name="centralWidget">
+   <layout class="QGridLayout" name="gridLayout">
+    <item row="0" column="0" rowspan="6">
+     <widget class="QListWidget" name="listWidget">
+      <property name="iconSize">
+       <size>
+        <width>120</width>
+        <height>120</height>
+       </size>
+      </property>
+      <property name="resizeMode">
+       <enum>QListView::Adjust</enum>
+      </property>
+     </widget>
+    </item>
+    <item row="0" column="1">
+     <widget class="QCheckBox" name="All">
+      <property name="text">
+       <string>All</string>
+      </property>
+     </widget>
+    </item>
+    <item row="1" column="1">
+     <widget class="QCheckBox" name="Airplanes">
+      <property name="text">
+       <string>Airplanes</string>
+      </property>
+     </widget>
+    </item>
+    <item row="2" column="1">
+     <widget class="QCheckBox" name="Lotus">
+      <property name="text">
+       <string>Lotus</string>
+      </property>
+     </widget>
+    </item>
+    <item row="3" column="1">
+     <widget class="QCheckBox" name="Panda">
+      <property name="text">
+       <string>Panda</string>
+      </property>
+     </widget>
+    </item>
+    <item row="4" column="1">
+     <widget class="QCheckBox" name="Pyramid">
+      <property name="text">
+       <string>Pyramid</string>
+      </property>
+     </widget>
+    </item>
+    <item row="5" column="1">
+     <widget class="QCheckBox" name="Strawberry">
+      <property name="text">
+       <string>Strawberry</string>
+      </property>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QToolBar" name="mainToolBar">
+   <attribute name="toolBarArea">
+    <enum>TopToolBarArea</enum>
+   </attribute>
+   <attribute name="toolBarBreak">
+    <bool>false</bool>
+   </attribute>
+  </widget>
+  <widget class="QStatusBar" name="statusBar"/>
+ </widget>
+ <layoutdefault spacing="6" margin="11"/>
+ <resources/>
+ <connections/>
+</ui>
